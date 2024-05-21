@@ -14,12 +14,12 @@ public class RemoteBot extends TelegramLongPollingBot {
     }
     @Override
     public String getBotUsername() {
-        return "YechielReminderBot";
+        return "";
     }
 
     @Override
     public String getBotToken() {
-        return "5917192558:AAGJlzizYhgi-7bEbaa_46kVaca6XKuZyGk";
+        return "";
     }
 
     @Override
