@@ -12,14 +12,17 @@ public class RemoteBot extends TelegramLongPollingBot {
     public RemoteBot(MainPanel mainPanel){
         this.mainPanel = mainPanel;
     }
+    private final String botName = "bot's name"; // Enter your bot's name
+    private final String botToken = "bot's token"; //Enter your bot's token
+
     @Override
     public String getBotUsername() {
-        return "";
+        return botName;
     }
 
     @Override
     public String getBotToken() {
-        return "";
+        return botToken;
     }
 
     @Override
