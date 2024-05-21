@@ -22,20 +22,20 @@ public class Car {
                     carIcon.paintIcon(null,graphics,this.x,this.y);
                 }
                 case "d"->{
-                    this.carIcon = new ImageIcon("C:\\Users\\יחיאל\\Downloads\\carD.png");
+                    this.carIcon = new ImageIcon("src/main/resources/carD.png");
                     carIcon.paintIcon(null,graphics,this.x,this.y);
                 }
                 case "r"->{
-                    this.carIcon = new ImageIcon("C:\\Users\\יחיאל\\Downloads\\carR.png");
+                    this.carIcon = new ImageIcon("src/main/resources/carR.png");
                     carIcon.paintIcon(null,graphics,this.x,this.y);
                 }
                 case "l"->{
-                    this.carIcon = new ImageIcon("C:\\Users\\יחיאל\\Downloads\\carL.png");
+                    this.carIcon = new ImageIcon("src/main/resources/carL.png");
                     carIcon.paintIcon(null,graphics,this.x,this.y);
                 }
             }
         }else {
-            this.carIcon = new ImageIcon("C:\\Users\\יחיאל\\Downloads\\pngtree-red-car-from-up-view-icon-png-image_3794336.jpg");
+            this.carIcon = new ImageIcon("src/main/resources/carU.png");
             carIcon.paintIcon(null,graphics,this.x,this.y);
         }
     }
